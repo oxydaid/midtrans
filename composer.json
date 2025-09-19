@@ -1,0 +1,10 @@
+{
+    "name": "azuriom/midtrans",
+    "type": "azuriom-plugin",
+    "description": "Midtrans - Indonesian payment gaterway for Azuriom",
+    "autoload": {
+        "psr-4": {
+            "Azuriom\\Plugin\\Midtrans\\": "src/"
+        }
+    }
+}

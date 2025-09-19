@@ -1,0 +1,15 @@
+{
+    "id": "midtrans",
+    "name": "Midtrans",
+    "description": "Midtrans - Indonesian payment gaterway for Azuriom",
+    "version": "1.0.0",
+    "url": "http://lynk.id/oxyda/gne5pkervwxy",
+    "authors": ["Oxyda"],
+    "azuriom_api": "1.1.0",
+    "dependencies": {
+        "shop": "^1.0.0"
+    },
+    "providers": [
+        "\\Azuriom\\Plugin\\Midtrans\\Providers\\MidtransServiceProvider"
+    ]
+}
